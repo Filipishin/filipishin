@@ -1,0 +1,119 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body { 
+    background: white url(background.jpg) fixed;
+    font: 16px/1.42857 "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin:0;
+	height: 100%;
+}
+
+footer {
+	width:100%;
+    background-color: #373737;
+    clear: both;
+    color: #fff;
+    padding: 10px 0;
+}
+footer{ text-align: center; }
+footer p, footer address{
+	width:200px;
+	margin: 0 auto;
+}
+
+footer address a {
+    color: antiquewhite;
+}
+footer address a:hover{
+	text-decoration:none;
+    color: yellow;
+}
+header{
+	position:fixed; top:0; left:0;
+	width:100%;
+	clear:both;
+}
+nav{
+	position:fixed; top:160px; left:0;
+	width:100%;
+	clear:both;
+}
+
+
+
+header {
+    background-color: black;
+    color: #fff;
+    height: 160px;
+    padding: 10px 50px;
+	z-index:10;
+}
+
+header img, header h1 {
+ display: inline;
+}
+
+nav {
+	z-index:10;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    height: 56px;
+	
+	box-shadow:5px 9px 17px;
+}
+
+nav ul li {
+    float:left;
+    margin-right:22px;
+	list-style-type: none;
+}
+
+nav ul li a{
+	font: bold italic 110% serif;
+	text-decoration:none;
+	font-weight:bold;
+	color:coral;
+}
+
+nav ul li a:hover{
+	color:seagreen;
+	text-decoration:overline;
+}
+
+main {
+    margin: 250px auto;
+	height: auto;
+    width: 100%;
+    display: block;
+}
+article {
+    float: left;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    width: 70%;
+    overflow: hidden;
+}
+section {
+    background-color:#eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+aside {
+	z-index:1;
+    float: right;
+    padding-left: 12px;
+    width: 24%;
+    display: block;
+    overflow: hidden;
+    position:relative;
+	background-color:white;
+	border-radius: 15px;
+	box-shadow:5px 9px 17px;
+}
+menu {
+    padding: 0;
+}
+
