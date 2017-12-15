@@ -1,2 +1,0 @@
-# filipishin
-ИПЗз-13
