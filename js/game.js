@@ -212,15 +212,15 @@ function updateScore() {
 }
 
 document.addEventListener('keydown', event => {
-    if (event.keyCode === 37) {
+    if (event.keyCode === 37) { 		// DOM_VK_LEFT
         playerMove(-1);
-    } else if (event.keyCode === 39) {
+    } else if (event.keyCode === 39) { 	// DOM_VK_RIGHT
         playerMove(1);
-    } else if (event.keyCode === 40) {
+    } else if (event.keyCode === 40) { 	// DOM_VK_DOWN
         playerDrop();
-    } else if (event.keyCode === 81) {
+    } else if (event.keyCode === 81) { 	// Q
         playerRotate(-1);
-    } else if (event.keyCode === 87) {
+    } else if (event.keyCode === 87) { 	// W
         playerRotate(1);
     }
 });
