@@ -69,7 +69,7 @@ main {
 }
 article {
     float: left;
-    margin-bottom: 30px;
+    margin-left:13%;
     padding: 0 15px;
     width: auto;
     overflow: hidden;
@@ -81,8 +81,9 @@ section {
 }
 aside {
 	z-index:1;
-	margin:0 auto;
-    padding-left: 12px;
+	float:right;
+	padding-left:10px;
+	margin-right:23%;
     width: 260px;
 	height: 450px;
     display: block;
