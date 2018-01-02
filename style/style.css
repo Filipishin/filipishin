@@ -7,7 +7,6 @@ body {
     background: white url(../image/background.jpg) fixed;
     font: 16px/1.42857 "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin:0;
-	height: 100%;
 }
 
 
@@ -63,7 +62,7 @@ nav ul li a:hover{
 }
 
 main {
-    margin: 250px auto;
+    margin-top: 250px;
 	height: auto;
     width: 100%;
     display: block;
@@ -72,7 +71,7 @@ article {
     float: left;
     margin-bottom: 30px;
     padding: 0 15px;
-    width: 70%;
+    width: auto;
     overflow: hidden;
 }
 section {
@@ -82,9 +81,10 @@ section {
 }
 aside {
 	z-index:1;
-    float: right;
+	margin:0 auto;
     padding-left: 12px;
-    width: 24%;
+    width: 260px;
+	height: 450px;
     display: block;
     overflow: hidden;
     position:relative;
@@ -99,9 +99,11 @@ menu {
 footer {
 	width:100%;
     background-color: #373737;
-    clear: both;
+    clear: both; 
+    overflow: hidden;
     color: #fff;
     padding: 10px 0;
+	position:fixed; bottom:0; left:0;
 }
 footer{ text-align: center; }
 footer p, footer address{
@@ -115,4 +117,7 @@ footer address a {
 footer address a:hover{
 	text-decoration:none;
     color: yellow;
+}
+canvas{
+	width: 96%;
 }
